@@ -1,13 +1,29 @@
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+
 <!DOCTYPE html> 
 <html>
+    
     <head>
+        <link rel='stylesheet' href='design.css'>
         <title>Etch-a-Sketch!</title>
     </head>
 
-    <style src='style.css'></style>
 
     <body>
-        <button id='resetButton'>RESET</button>
+        <h1>Etch-a-Sketch!</h1>
+
+        <div id="buttonBar">
+            <label id="colorSelection">Select a color<input value="#000000" type="color"></label>
+            <button id="reset">Clear</button>
+            <label>Set a size</label><input id="newSize" type="number" max="120" min="1" required>
+        </div>
+
+        <div id='container' class='container'>
+
+        </div>
+            
+
     </body>
 
     <script src='main.js'></script>

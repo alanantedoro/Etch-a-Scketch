@@ -1,0 +1,50 @@
+/*  Design para el botòn de reset - contenedor de divs - divs planos - hover de divs
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+html {
+    background: rgb(247, 227, 227);
+}
+
+h1{
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 95px;
+    text-align: center;
+    
+}
+
+#resetButton {
+    border: 10px;
+}
+
+.container {
+    text-align: center;
+    display: grid;
+    margin: auto;
+    width: 960;
+    height: 960px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+#buttonBar {
+text-align: center;
+}
+
+#reset{
+    margin: 30px;
+}
+
+#colorSelection{
+    margin: 30px;
+}
+
+.grid-cell{
+    background-color: white;
+    padding: 1em;
+    border: 1px solid rgb(163, 160, 160);
+    display: grid;
+    padding: 0px;
+    margin: 0px;
+}
